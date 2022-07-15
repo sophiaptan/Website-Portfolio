@@ -4,41 +4,36 @@
     "header": {
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
-        "isTitleVisible": true,
+        "title": "Sophia (P) Tan",
+        "isTitleVisible": false,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
-                "url": "/projects"
+                "label": "Portfolio",
+                "url": "/portfolio"
             },
             {
                 "type": "Link",
                 "label": "Blog",
                 "url": "/blog"
-            }
-        ],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/stackbit",
-                "icon": "twitter"
             },
             {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/stackbit-themes",
-                "icon": "github"
+                "type": "Link",
+                "label": "About Me",
+                "url": "/about-me"
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "altText": "",
+                "url": "/contact.md",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
+        "socialLinks": [],
         "styles": {
             "self": {
                 "width": "full"
@@ -49,14 +44,8 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "label": "About me",
+                "url": "/pages/about-me.md",
                 "altText": ""
             },
             {
@@ -67,21 +56,18 @@
             },
             {
                 "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/stackbit-themes",
+                "label": "Portfolio",
+                "url": "/portfolio",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "url": "/pages/contact.md",
                 "altText": ""
             }
         ],
-        "contacts": {
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
-        },
-        "copyrightText": "Powered by [Stackbit](https://www.stackbit.com/)",
+        "copyrightText": "Sophia (P) Tan 2022",
         "styles": {
             "self": {
                 "width": "narrow",
